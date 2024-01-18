@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.png" />
+    <script src="https://kit.fontawesome.com/1e24885529.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Prayerandpedagogy</title>
+</head>
+
+<body>
+    <nav
+        class="sticky_nav sticky w-full -top-32 z-[55555] h-[80px] bg-[#000000] flex flex-row items-center justify-between px-[19px] lg:px-[50px] overflow-x-clip">
+        <div class="logo ">
+            <a href="/">
+                <img src="./img/logo.png" class="w-[70px] lg:w-[162px]" alt="">
+            </a>
+        </div>
+        <div
+            class="nav_menu absolute z-[900] lg:relative top-0 bg-black h-[100vh] lg:h-full -right-64 lg:right-0 text-right text-white flex lg:flex-row lg:items-center duration-700">
+            <ul class="flex flex-col my-12 lg:my-0 lg:flex-row text-[13px] uppercase">
+                <li
+                    class="px-[10px] hover:text-gray-400 pt-[2.5rem] lg:py-[30px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-white hober:border-opacity-100 cursor-pointer transform duration-1000">
+                    <a href="#my_story" onclick="mehedi()">
+                        Meet Pratia
+                    </a>
+
+                </li>
+                <li class="invisible lg:visible lg:px-[10px] opacity-50 lg:py-[30px]">|</li>
+                <li
+                    class="px-[10px] hover:text-gray-400 py-3 lg:py-[30px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-white hober:border-opacity-100 cursor-pointer transform duration-1000">
+                    <a href="#blog" onclick="mehedi()">
+                        Blogs
+                    </a>
+                </li>
+                <li class="invisible lg:visible lg:px-[10px] opacity-50 lg:py-[30px]">|</li>
+                <li
+                    class="px-[10px] hover:text-gray-400 py-3 lg:py-[30px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-white hober:border-opacity-100 cursor-pointer transform duration-1000">
+                    <a href="#TEACHERS_TOOLBOX" onclick="mehedi()">
+                        Teacher Toolbox
+                    </a>
+                </li>
+                <li class="invisible lg:visible lg:px-[10px] opacity-50 lg:py-[30px]">|</li>
+                <li
+                    class="px-[10px] hover:text-gray-400 py-3 lg:py-[30px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-white hober:border-opacity-100 cursor-pointer transform duration-1000">
+                    <a href="#website" onclick="mehedi()">
+                        Hire Pratia P & P Products
+                    </a>
+
+                </li>
+                <li class="invisible lg:visible lg:px-[10px] opacity-50 lg:py-[30px]">|</li>
+                <li class="px-[10px] hover:text-gray-400 py-3 lg:py-[30px] items-center border-b-4 border-transparent hover:border-b-4 hover:border-white hober:border-opacity-100 cursor-pointer transform duration-1000"
+                    onclick="mehedi()">
+                    <a href="#Contact">
+                        Contact Pratia
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="icon absolute lg:relative z-[1000] right-1 flex flex-row space-x-4">
+            <a href="mailto:PrayerAndPedagogy@gmail.com"><i
+                    class="fa-sharp fa-regular fa-envelope text-white text-[25px] hover:opacity-50 cursor-pointer"></i></a>
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/menu-rounded.png"
+                class="nav_bar_icon w-[25px] hover:brightness-50 cursor-pointer lg:hidden" />
+            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/delete-sign--v1.png"
+                class="nav_bar_close w-[25px] hover:brightness-50 cursor-pointer lg:hidden" hidden />
+        </div>
+    </nav>
+    <div class="header h-[30vh] lg:h-[90vh] relative w-full">
+        <div class="absolute lg:top-0">
+            <img src="./img/cover1.png" class="w-full h-[30vh] lg:h-[90vh] bg-cover" alt="" />
+        </div>
+        <div class="absolute bottom-0 lg:bottom-10 translate-x-[40%] lg:translate-x-[100%] 2xl:translate-x-[120%]">
+            <a href="#Hire_Pratia">
+                <button
+                    class="w-[100px] lg:w-[245px] h-[40px] lg:h-[54px] relative group text-[8px] lg:text-[12px] uppercase">
+                    <div
+                        class="bg-black lg:h-full group-hover:bg-white z-10 py-[14px] px-[12px] transition duration-200">
+                    </div>
+                    <div
+                        class="text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover:text-black z-30 transition duration-200 uppercase">
+                        View More</div>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="my_story px-2 lg:w-[1140px] mx-auto pt-[60px] lg:pt-[70px]" id="my_story">
+        <div class="p-[20px] flex flex-col items-center justify-center border-b-2 border-black">
+            <div class="text-[20px] uppercase tracking-wider">Pratia Jordan</div>
+            <div class="text-[48px] tracking-normal font-serif">My Story</div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center justify-center">
+            <p class="lg:pr-[20px] pt-[40px] text-justify leading-relaxed text-[#333]">
+                Pratiá. It’s pronounced PRAY-sha. My mother says my name was a gift
+                from God: “She Shall Pray.” I’ve always loved my name because it was
+                all mine. Six billion people on this beautiful blue marble and I
+                shared my name with no one. I’ve come to feel like it embodies me
+                more each day. It’s a bit strange and challenging at first glance,
+                but very simple once you get a better understanding of it. That’s
+                me. I’ve worn a lot of titles, earned a few degrees, learned a
+                couple of languages, wandered through a dozen countries and have
+                pocketed a hodgepodge of skills that might seem a bit peculiar when
+                you try to piece them all together. But really, there’s a single,
+                simple thread that weaves my journey together: passion.
+            </p>
+            <p class="lg:pl-[40px] pt-[40px] text-justify leading-relaxed text-[#333]">
+                Wife. Mother. Believer. Teacher. Author. Speaker. It all comes down
+                to a relentless passion to unwrap the gift of purpose inside of me.
+                And I know I’m not the only one. That’s why you’re here, right? One
+                way or another, each of us is just trying to manifest the best parts
+                of ourselves, whether at home, in the classroom, office or anywhere
+                else. So let’s do it together. If you’re anything like me you know
+                that life is short and time flies whether you’re languishing your
+                nightmare or living your dreams. Only the latter makes the days
+                worth living. Join me at the intersection of passion and purpose.
+                Welcome. Let’s get to work.
+                Whatever you do, work heartily, as for the Lord and not for men.
+                Colossians 3:23
+
+            </p>
+        </div>
+    </div>
+    <div class="blog px-2 lg:w-[1140px] mx-auto py-40" id="blog">
+        <h2 class="py-[20px] flex flex-col border-b-2 border-black">
+            <span class="text-[15px] text-[#333] uppercase tracking-wider">Pray. Teach. Repeat</span>
+            <span class="leading-none text-[30px] lg:text-[48px] tracking-normal font-serif">Featured Blogs</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] py-2">
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog1.html">
+                    <img src="https://images.pexels.com/photos/6334060/pexels-photo-6334060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        Somebody Had to Say It
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog2.html">
+                    <img src="./img/image2.png"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        Name Calling
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog3.html">
+                    <img src="./img/image3.png"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        The Gift of Nothing
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog4.html">
+                    <img src="https://images.pexels.com/photos/8618026/pexels-photo-8618026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        Prayers for Anxious Teachers | Speech
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog5.html">
+                    <img src="https://images.pexels.com/photos/5905456/pexels-photo-5905456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        Prayers for Anxious Teachers | <br> Work
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog6.html">
+                    <img src="https://images.pexels.com/photos/5905456/pexels-photo-5905456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        Prayers for Anxious Teachers | Provision
+                    </div>
+                </a>
+            </div>
+            <div class="relative group h-[260px] cursor-pointer">
+                <a href="./blogs/blog7.html">
+                    <img src="./img/image8.png"
+                        class="group-hover:brightness-50 transition duration-300 z-30 h-full lg:w-[360px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                        alt="" />
+                    <div
+                        class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] invisible group-hover:visible w-full z-50 text-white text-center transition duration-300 text-[20px]">
+                        No Child Left Behind
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Hire_Pratia bg-[url(./img/gradient.jpg)] bg-cover w-full flex flex-col lg:flex-row px-3 py-[100px] "
+        id="Hire_Pratia">
+        <div class="">
+            <img src="./img/PHOTO.jpg" alt="">
+        </div>
+        <div class="text-white w-full lg:pl-[70px] space-y-3">
+            <div class="text-[30px] text-center lg:text-[50px]">Hire Pratia</div>
+            <div class="bg-white w-full h-[1px] "></div>
+            <p>Pratia Jordan is an award-winning educator with more than a decade of classroom experience.</p>
+            <div class="text-center">
+                <a href="view more.html">
+                    <button class="w-[200px] h-[54px] relative group text-[12px] uppercase">
+                        <div
+                            class="bg-white h-full group-hover:brightness-50 z-10 py-[18px] px-[20px]transition duration-200">
+                        </div>
+                        <div
+                            class="text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover:text-white z-30 transition duration-200 uppercase">
+                            View More</div>
+                    </button>
+                </a>
+                <a href="Hire Me Opportunities.html"><button
+                        class="w-[200px] h-[54px] relative group text-[12px] uppercase">
+                        <div
+                            class="bg-white h-full group-hover:brightness-50 z-10 py-[18px] px-[20px]transition duration-200">
+                        </div>
+                        <div
+                            class="text-black w-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] group-hover:text-white z-30 transition duration-200 uppercase">
+                            Hire Me Opportunities
+                        </div>
+                    </button></a>
+            </div>
+        </div>
+    </div>
+    <div class="TEACHERS_TOOLBOX bg-[#e4e4e5] px-2 py-9 lg:p-[130px]" id="TEACHERS_TOOLBOX">
+        <div class="flex flex-col">
+            <h1>PRAY. TEACH. REAPEAT</h1>
+            <div class="uppercase text-[30px]">Teachers Toolbox</div>
+            <hr class="w-full h-[2px] bg-black">
+            <p class="py-5">
+                The Teacher’s Toolbox has downloadable resources for teachers to grab for the right situation.
+                Browse
+                our list of tools
+                that will meet your needs.
+            </p>
+            <a href="https://docs.google.com/document/d/1nCUDkVOtI04sgBxg2vEmmaXcTy1K4G0WiY6PRuay-XA/edit"
+                target="_blank" rel="noopener noreferrer">
+            <div class="w-full my-10 relative">
+                    <img src="https://images.pexels.com/photos/51159/letter-handwriting-family-letters-written-51159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 "
+                        class="w-[534px] mx-auto brightness-50" alt="">
+                    <p
+                        class="absolute w-full text-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[23] text-white text-[20px] lg:text-[40px]">
+                        Jordan’s Historians Letter</p>
+                    </div>
+                </a>
+            <a href="https://docs.google.com/spreadsheets/d/1_m98iHMJIh6ykxlDou1k5eG3-a88xAUgY3F7L3HL800/edit#gid=0"
+                target="_blank" rel="noopener noreferrer">
+                <div class="w-full my-5 lg:my-10 relative">
+                    <img src="https://images.pexels.com/photos/3758105/pexels-photo-3758105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-[534px] mx-auto brightness-50" alt="">
+                    <p
+                        class="absolute w-full text-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[23] text-white text-[20px] lg:text-[40px]">
+                        End of Year Unit<br> Review Choice Board</p>
+                </div>
+            </a>
+            <a href="https://docs.google.com/document/d/1IMHfNj55pHwdM43ZBzyDJHVyRp58mWKQGbxScFAdC6c/edit"
+                target="_blank" rel="noopener noreferrer">
+                <div class="w-full my-10 relative">
+                    <img src="https://images.pexels.com/photos/3826676/pexels-photo-3826676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-[534px] mx-auto brightness-50" alt="">
+                    <p
+                        class="absolute w-full text-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[23] text-white text-[20px] lg:text-[40px]">
+                        AVID Family <br> Welcome Letter</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <div class="embed" id="website">
+        <div class="py-[20px] px-2 flex flex-col border-b-2 border-black">
+            <span class="text-center leading-none text-[30px] lg:text-[48px] tracking-normal font-serif">Prayer & Pedagogy Products</span>
+        </div>
+        <iframe src="https://www.printful.com/" class="w-full h-[100vh]" frameborder="0"></iframe>
+    </div>
+    <footer class="Contact bg-[#0f0f0f] py-[80px] font-[300] text-[14px] text-white" id="Contact">
+        <div class="flex justify-around flex-col lg:flex-row text-center lg:text-left">
+            <div class="mx-auto lg:mx-0">
+                <img src="./img/logo.png" class="w-[162px]" alt="">
+            </div>
+            <div class="">
+                <div class="lg:w-[682px]">
+                    <div class="mx-auto">
+                        <span class="text-[20px]">Contact Us</span>
+                    </div>
+                    <hr class="bg-white w-full h-[2px]">
+                    <div class="pt-2 text-center">
+                        <div>
+                            <p>PRAYER & PEDAGOGY</p>
+                        </div>
+                        <div class="flex justify-center lg:items-center">
+                            <a href="mailto:PrayerAndPedagogy@gmail.com"><img src="https://img.icons8.com/plasticine/100/null/new-post.png" class="w-[30px]" /></a>
+                            <a href="mailto:PrayerAndPedagogy@gmail.com"><span>PrayerAndPedagogy@gmail.com</span></a>
+                        </div>
+                        <div class="flex justify-center space-x-3">
+                            <a href="https://www.youtube.com/prayerandpedagogy" target="blank"><img
+                                    src="https://img.icons8.com/ios-filled/50/FFFFFF/youtube-play.png"
+                                    class="w-[25px] hover:brightness-50" /></a>
+                            <a href="https://www.facebook.com/prayerandpedagogy" target="blank"><img
+                                    src="https://img.icons8.com/material-rounded/24/FFFFFF/facebook-new.png"
+                                    class="hover:brightness-50" /></a>
+                            <a href="https://www.instagram.com/prayerandpedagogy/" target="blank"><img
+                                    src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png"
+                                    class="hover:brightness-50" /></a>
+                            <a href="https://www.tiktok.com/@prayerandpedagogy?is_from_webapp=1&sender_device=pc"
+                                target="blank"><img src="https://img.icons8.com/ios/50/FFFFFF/tiktok--v1.png"
+                                    class="w-[25px] hover:brightness-50" /></a>
+                        </div>
+                        <div class="text-center pt-2">
+                            <p class="uppercase">Hire Pratia P & P Products</p>
+                            <p>Copyright © 2023 PRAYER & PEDAGOGY All Rights Reserved. Sitemap | Privacy
+                                Policy. Don’t Sell My Personal
+                                Information</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=""></div>
+        </div>
+    </footer>
+    <script>
+        const sticky_nav = document.querySelector('.sticky_nav');
+        const nav_bar_icon = document.querySelector('.nav_bar_icon');
+        const nav_menu = document.querySelector('.nav_menu');
+        const nav_bar_close = document.querySelector('.nav_bar_close');
+        const my_story = document.querySelector('.my_story');
+        document.addEventListener('scroll', (e) => {
+            if (window.scrollY > 400) {
+                sticky_nav.classList.replace('-top-32', 'top-0');
+                sticky_nav.classList.add('duration-700');
+
+            }
+            else if (window.scrollY <= 400) {
+                sticky_nav.classList.replace('top-0', '-top-32');
+                sticky_nav.classList.remove('duration-700');
+
+            }
+        });
+
+        nav_bar_icon.addEventListener('click', () => {
+            nav_menu.classList.replace('-right-64', 'right-0');
+            nav_bar_icon.hidden = true;
+            nav_bar_close.hidden = false;
+        })
+        nav_bar_close.addEventListener('click', () => {
+            nav_menu.classList.replace('right-0', '-right-64');
+            nav_bar_icon.hidden = false;
+            nav_bar_close.hidden = true;
+        })
+        function mehedi() {
+            nav_menu.classList.replace('right-0', '-right-64');
+            nav_bar_icon.hidden = false;
+            nav_bar_close.hidden = true;
+        }
+
+    </script>
+</body>
+
+</html>
